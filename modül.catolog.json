@@ -9,14 +9,14 @@
     "repo_name": "inventhor-cloud",
     "branch": "main",
     "catalog_path": "modül.catolog.json",
-    "catalog_raw_url": "https://raw.githubusercontent.com/inventhor-cloud/inventhor-cloud/main/mod%C3%BCl.catolog.json"
+    "catalog_raw_url": "https://inventhor-cloud.github.io/inventhor-cloud/mod%C3%BCl.catolog.json"
   },
   "github_update": {
     "enabled": true,
     "manifest_path": "update_manifest.json",
-    "manifest_raw_url": "https://raw.githubusercontent.com/inventhor-cloud/inventhor-cloud/main/update_manifest.json",
+    "manifest_raw_url": "https://inventhor-cloud.github.io/inventhor-cloud/update_manifest.json",
     "apk_path": "INVENTHOR.apk",
-    "apk_raw_url": "https://raw.githubusercontent.com/inventhor-cloud/inventhor-cloud/main/INVENTHOR.apk",
+    "apk_raw_url": "https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk",
     "role": "public_apk_update_distribution"
   },
   "rules": {

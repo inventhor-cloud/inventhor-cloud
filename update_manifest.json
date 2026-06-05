@@ -1,0 +1,11 @@
+{
+  "app": "INVENTHOR",
+  "title": "INVENTHOR Beta",
+  "apk": "INVENTHOR.apk",
+  "versionName": "INVENTHOR Beta 20260605_151557",
+  "versionCode": 202606051515,
+  "channel": "beta",
+  "note": "INVENTHOR Beta APK hızlı indirme paketi.",
+  "apkPath": "INVENTHOR.apk",
+  "landingPage": "index.html"
+}

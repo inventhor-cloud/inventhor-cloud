@@ -1,11 +1,11 @@
 {
   "app": "INVENTHOR",
   "title": "INVENTHOR",
-  "versionName": "INVENTHOR Download Link Fix",
-  "versionCode": 202606060020,
+  "versionName": "INVENTHOR Active Panel Clean 202606060036",
+  "versionCode": 202606060036,
   "channel": "beta",
   "apk": "INVENTHOR.apk",
   "apkUrl": "https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk",
   "landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/",
-  "note": "Download link fixed. User-facing page uses one direct update button."
+  "note": "Old active panel version label and technical update texts cleaned."
 }

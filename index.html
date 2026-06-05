@@ -12,9 +12,7 @@ body{margin:0;background:radial-gradient(circle at top,#0b1c24,#04070a 58%);colo
 h1{text-align:center;margin:0 0 6px;font-size:31px;letter-spacing:.06em}
 .sub{text-align:center;color:#8aa1a8;margin-bottom:18px}
 .btn{display:block;text-align:center;text-decoration:none;border-radius:18px;padding:18px 16px;margin:12px 0;font-weight:850;font-size:17px;background:#48dcff;color:#04070a}
-.progress{height:10px;background:#121920;border:1px solid rgba(72,220,255,.25);border-radius:999px;overflow:hidden;margin:16px 0 8px}
-.bar{height:100%;width:0%;background:#48dcff;transition:width .25s}
-.status{text-align:center;color:#8aa1a8;font-size:13px;margin-bottom:12px}
+.status{text-align:center;color:#8aa1a8;font-size:13px;margin:14px 0}
 .info{font-size:13px;color:#8aa1a8;line-height:1.55;margin-top:16px;background:#121920;border:1px solid rgba(72,220,255,.16);border-radius:18px;padding:14px}
 </style>
 </head>
@@ -22,21 +20,9 @@ h1{text-align:center;margin:0 0 6px;font-size:31px;letter-spacing:.06em}
 <div class="wrap"><div class="card">
 <h1>INVENTHOR</h1>
 <div class="sub">Android uygulama güncellemesi</div>
-<a id="downloadBtn" class="btn" href="./INVENTHOR.apk?v=202606060008" download>Güncelle</a>
-<div class="progress"><div id="bar" class="bar"></div></div>
-<div id="status" class="status">Güncelleme hazır.</div>
-<div class="info">Güncelleme indirildikten sonra dosyayı açınız. Android kurulum onayı isterse ekrandaki yönergeleri takip ediniz.</div>
+<a class="btn" href="https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk">Güncelle</a>
+<div class="status">Güncelleme hazır.</div>
+<div class="info">İndirme tamamlandıktan sonra APK dosyasını açıp kurulumu onaylayınız.</div>
 </div></div>
-<script>
-const btn=document.getElementById("downloadBtn");
-const bar=document.getElementById("bar");
-const status=document.getElementById("status");
-btn.addEventListener("click",function(){
- status.textContent="Güncelleme indiriliyor. Lütfen tamamlanmasını bekleyiniz.";
- bar.style.width="35%";
- setTimeout(function(){bar.style.width="70%";},900);
- setTimeout(function(){bar.style.width="100%";status.textContent="Güncelleme hazır. İndirme tamamlandıysa dosyayı açıp kurunuz.";},2200);
-});
-</script>
 </body>
 </html>

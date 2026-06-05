@@ -1,17 +1,21 @@
-GitHub repo köküne şu 3 dosyayı yükle:
+INVENTHOR Update Package
 
-1) INVENTHOR_PANEL_GUNCEL.apk
+Standard public files:
+1) INVENTHOR.apk
 2) update_manifest.json
-3) modül.catolog.json
+3) index.html
+4) modül.catolog.json
 
-Repo:
-https://github.com/inventhor-cloud/inventhor-cloud
+Public download page:
+https://inventhor-cloud.github.io/inventhor-cloud/?v=202606060008
 
-Manifest raw:
-https://raw.githubusercontent.com/inventhor-cloud/inventhor-cloud/main/update_manifest.json
+Standard APK link:
+https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk?v=202606060008
 
-APK raw:
-https://raw.githubusercontent.com/inventhor-cloud/inventhor-cloud/main/INVENTHOR_PANEL_GUNCEL.apk
+Standard manifest link:
+https://inventhor-cloud.github.io/inventhor-cloud/update_manifest.json?v=202606060008
 
-Catalog raw:
-https://raw.githubusercontent.com/inventhor-cloud/inventhor-cloud/main/mod%C3%BCl.catolog.json
+User-facing update flow:
+Users should only see a simple update screen with one main action: Güncelle.
+
+Technical manifest, APK links, GitHub details, publishing notes and token information belong only to owner/developer tools.

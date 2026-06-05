@@ -1,11 +1,11 @@
 {
   "app": "INVENTHOR",
-  "title": "INVENTHOR Beta",
-  "versionName": "INVENTHOR Real Full Chain Modules 202606052038",
-  "versionCode": 202606052038,
+  "title": "INVENTHOR",
+  "versionName": "INVENTHOR Final Clean Update 202606060008",
+  "versionCode": 202606060008,
   "channel": "beta",
   "apk": "INVENTHOR.apk",
-  "apkUrl": "https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk",
-  "landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/",
-  "note": "Real full chain foundation modules installed: phone-tablet command, local Wi-Fi route, remote relay, background worker, permission gate, pairing policy, AI fallback brain, cloud brain growth, result sync and update install flow."
+  "apkUrl": "https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk?v=202606060008",
+  "landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/?v=202606060008",
+  "note": "Clean user-facing update flow. Technical update details are hidden from normal users."
 }

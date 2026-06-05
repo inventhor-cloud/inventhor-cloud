@@ -1,11 +1,11 @@
 {
   "app": "INVENTHOR",
   "title": "INVENTHOR",
-  "versionName": "INVENTHOR Active Panel Clean 202606060036",
-  "versionCode": 202606060036,
+  "versionName": "INVENTHOR Login Auto Attach 202606060100",
+  "versionCode": 202606060100,
   "channel": "beta",
   "apk": "INVENTHOR.apk",
   "apkUrl": "https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk",
   "landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/",
-  "note": "Old active panel version label and technical update texts cleaned."
+  "note": "Login auto-attach chain added for update cloud, central brain, owner brain, owner archive and provider vault probe."
 }

@@ -1,11 +1,11 @@
 {
   "app": "INVENTHOR",
   "title": "INVENTHOR Beta",
-  "versionName": "INVENTHOR Login Verify 202606051815",
-  "versionCode": 202606051815,
+  "versionName": "INVENTHOR Real Full Chain Modules 202606052038",
+  "versionCode": 202606052038,
   "channel": "beta",
   "apk": "INVENTHOR.apk",
   "apkUrl": "https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk",
   "landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/",
-  "note": "Giriş ekranı temiz doğrulandı ve sabit APK güncellendi."
+  "note": "Real full chain foundation modules installed: phone-tablet command, local Wi-Fi route, remote relay, background worker, permission gate, pairing policy, AI fallback brain, cloud brain growth, result sync and update install flow."
 }

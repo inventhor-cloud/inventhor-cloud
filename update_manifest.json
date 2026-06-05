@@ -1,1 +1,11 @@
-{"app":"INVENTHOR","title":"INVENTHOR Beta","versionName":"INVENTHOR Beta 20260605_164647","versionCode":202606051646,"channel":"beta","releasePage":"https://github.com/inventhor-cloud/inventhor-cloud/releases","landingPage":"https://inventhor-cloud.github.io/inventhor-cloud/","note":"Release-only beta download page."}
+{
+  "app": "INVENTHOR",
+  "title": "INVENTHOR Beta",
+  "versionName": "INVENTHOR Login Clean 202606051658",
+  "versionCode": 202606051658,
+  "channel": "beta",
+  "apk": "INVENTHOR.apk",
+  "releasePage": "https://github.com/inventhor-cloud/inventhor-cloud/releases",
+  "landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/",
+  "note": "Tablet bağlantısı giriş ekranından kaldırıldı. Bağlı cihazlar ayarlarına taşındı."
+}

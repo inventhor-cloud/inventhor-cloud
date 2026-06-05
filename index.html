@@ -1,11 +1,56 @@
 <!doctype html>
-<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>INVENTHOR Beta İndir</title>
-<style>*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#0b1c24,#04070a 58%);color:#e8f7fa;font-family:system-ui,Arial}.wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:22px}.card{width:100%;max-width:500px;background:#0c1117;border:1px solid rgba(72,220,255,.38);border-radius:26px;padding:24px}h1{text-align:center;margin:0 0 6px;font-size:31px}.sub{text-align:center;color:#8aa1a8;margin-bottom:20px}.btn{display:block;text-align:center;text-decoration:none;border-radius:18px;padding:18px 16px;margin:12px 0;font-weight:850;font-size:16px;background:#48dcff;color:#04070a}.info{font-size:13px;color:#8aa1a8;line-height:1.58;margin-top:16px;background:#121920;border:1px solid rgba(72,220,255,.18);border-radius:18px;padding:14px}.badge{text-align:center;color:#48dcff;font-size:12px;margin-bottom:10px}</style>
-</head><body><div class="wrap"><div class="card">
-<h1>INVENTHOR BETA</h1>
-<div class="sub">Android uygulama indirme sayfası</div>
-<div class="badge">Beta sürüm • test kullanımı</div>
-<a class="btn" href="https://github.com/inventhor-cloud/inventhor-cloud/releases">INVENTHOR Beta APK indirme sayfasını aç</a>
-<div class="info">INVENTHOR Beta Android uygulamasını indirmek için yukarıdaki butona dokununuz. Açılan sürüm sayfasında en güncel sürümü seçerek <b>INVENTHOR.apk</b> dosyasını indirebilirsiniz.<br><br>Kurulum sırasında Android güvenlik izni isterse, kullandığınız tarayıcı için <b>“bu kaynaktan yüklemeye izin ver”</b> seçeneğini etkinleştiriniz ve kuruluma devam ediniz.<br><br>INVENTHOR Beta geliştirme aşamasındadır. Yeni sürümler yayınlandıkça bu sayfa üzerinden güncellenir.</div>
-</div></div></body></html>
+
+<html lang="tr">  
+<head>  
+<meta charset="utf-8">  
+<meta name="viewport" content="width=device-width,initial-scale=1">  
+<title>INVENTHOR Beta</title>  
+<style>  
+*{box-sizing:border-box}  
+body{margin:0;background:radial-gradient(circle at top,#0b1c24,#04070a 58%);color:#e8f7fa;font-family:system-ui,Arial,sans-serif}  
+.wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:22px}  
+.card{width:100%;max-width:460px;background:#0c1117;border:1px solid rgba(72,220,255,.35);border-radius:26px;padding:24px;box-shadow:0 0 34px rgba(72,220,255,.10)}  
+h1{text-align:center;margin:0 0 6px;font-size:31px;letter-spacing:.06em}  
+.sub{text-align:center;color:#8aa1a8;margin-bottom:10px}  
+.ver{text-align:center;color:#48dcff;font-size:13px;margin-bottom:20px}  
+.btn{display:block;text-align:center;text-decoration:none;border-radius:18px;padding:18px 16px;margin:12px 0;font-weight:850;font-size:17px;background:#48dcff;color:#04070a}  
+.progress{height:10px;background:#121920;border:1px solid rgba(72,220,255,.25);border-radius:999px;overflow:hidden;margin:16px 0 8px}  
+.bar{height:100%;width:0%;background:#48dcff;transition:width .25s}  
+.status{text-align:center;color:#8aa1a8;font-size:13px;margin-bottom:12px}  
+.info{font-size:13px;color:#8aa1a8;line-height:1.55;margin-top:16px;background:#121920;border:1px solid rgba(72,220,255,.16);border-radius:18px;padding:14px}  
+</style>  
+</head>  
+<body>  
+<div class="wrap"><div class="card">  
+<h1>INVENTHOR BETA</h1>  
+<div class="sub">Android uygulama indirme sayfası</div>  
+<div class="ver">Sürüm: 202606051752</div>  <a id="downloadBtn" class="btn" href="./INVENTHOR.apk" download>APK İndir</a>
+
+<div class="progress"><div id="bar" class="bar"></div></div>  
+<div id="status" class="status">APK indirilmeye hazır.</div>  <div class="info">  
+APK dosyasını indirdikten sonra açınız ve kurulumu tamamlayınız. Android güvenlik izni isterse, kullandığınız tarayıcı için “bu kaynaktan yüklemeye izin ver” seçeneğini etkinleştiriniz.  
+</div>  
+</div></div>  <script>  
+const btn=document.getElementById("downloadBtn");  
+const bar=document.getElementById("bar");  
+const status=document.getElementById("status");  
+btn.addEventListener("click",()=>{  
+  status.textContent="İndirme başlatıldı. Lütfen tamamlanmasını bekleyiniz.";  
+  bar.style.width="35%";  
+  setTimeout(()=>bar.style.width="70%",900);  
+  setTimeout(()=>{bar.style.width="100%";status.textContent="APK hazır. İndirme tamamlandıysa dosyayı açıp kurunuz.";},2200);  
+});  
+</script>  </body>  
+</html>  
+EOF  cat > "/sdcard/Download/INVENTHOR_GITHUB_UPLOAD_ROOT/update_manifest.json" <<EOF
+{
+"app": "INVENTHOR",
+"title": "INVENTHOR Beta",
+"versionName": "INVENTHOR Beta 202606051752",
+"versionCode": 202606051752,
+"channel": "beta",
+"apk": "INVENTHOR.apk",
+"apkUrl": "https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk",
+"landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/",
+"note": "Simple standard APK download page."
+}

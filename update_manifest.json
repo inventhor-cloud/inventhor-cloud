@@ -1,11 +1,13 @@
 {
   "app": "INVENTHOR",
   "title": "INVENTHOR Beta",
-  "apk": "INVENTHOR.apk",
-  "versionName": "INVENTHOR Beta 20260605_151557",
-  "versionCode": 202606051515,
+  "versionName": "INVENTHOR Beta 20260605_161224",
+  "versionCode": 202606051612,
   "channel": "beta",
-  "note": "INVENTHOR Beta APK hızlı indirme paketi.",
-  "apkPath": "INVENTHOR.apk",
-  "landingPage": "index.html"
+  "apk": "INVENTHOR.apk",
+  "releaseApk": "https://github.com/inventhor-cloud/inventhor-cloud/releases/download/inventhor-beta-20260605_161224/INVENTHOR.apk",
+  "rawApk": "https://raw.githubusercontent.com/inventhor-cloud/inventhor-cloud/main/INVENTHOR.apk",
+  "releasePage": "https://github.com/inventhor-cloud/inventhor-cloud/releases/tag/inventhor-beta-20260605_161224",
+  "landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/",
+  "note": "Multi download: Release + Raw + Pages."
 }

@@ -1,0 +1,62 @@
+{
+  "catalog_name": "INVENTHOR Cloud Module Catalog",
+  "version": "0.1.1",
+  "status": "foundation",
+  "brand": "INVENTHOR",
+  "github_catalog": {
+    "enabled": true,
+    "repo_owner": "inventhor-cloud",
+    "repo_name": "inventhor-cloud",
+    "branch": "main",
+    "catalog_path": "modül.catolog.json",
+    "catalog_raw_url": "https://raw.githubusercontent.com/inventhor-cloud/inventhor-cloud/main/mod%C3%BCl.catolog.json"
+  },
+  "github_update": {
+    "enabled": true,
+    "manifest_path": "update_manifest.json",
+    "manifest_raw_url": "https://raw.githubusercontent.com/inventhor-cloud/inventhor-cloud/main/update_manifest.json",
+    "apk_path": "INVENTHOR.apk",
+    "apk_raw_url": "https://raw.githubusercontent.com/inventhor-cloud/inventhor-cloud/main/INVENTHOR.apk",
+    "role": "public_apk_update_distribution"
+  },
+  "rules": {
+    "no_silent_cloud": true,
+    "no_silent_data_transfer": true,
+    "no_api_key_hardcode": true,
+    "user_approval_required": true,
+    "core_embedded": false,
+    "zero_idle_load": true,
+    "clean_remove_guard": true,
+    "no_letter_shadow": true,
+    "public_github_no_private_memory": true,
+    "provider_keys_never_public": true,
+    "private_memory_requires_encryption": true,
+    "module_remove_preserves_user_data": true
+  },
+  "modules": [
+    {
+      "id": "cloud.github_update_center",
+      "name": "GitHub Update Center",
+      "status": "foundation_ready",
+      "default_mode": "public_read_update_cloud",
+      "heavy": false,
+      "requires_user_approval": false
+    },
+    {
+      "id": "provider.smart_hybrid_router",
+      "name": "Smart Hybrid Provider Router",
+      "status": "foundation_ready",
+      "default_mode": "hybrid_with_permission_gate",
+      "heavy": false,
+      "requires_user_approval": true
+    },
+    {
+      "id": "cloud.memory_bridge",
+      "name": "Cloud Memory Bridge",
+      "status": "foundation_planned",
+      "default_mode": "private_cloud_or_hybrid_with_approval",
+      "heavy": true,
+      "requires_user_approval": true
+    }
+  ]
+}

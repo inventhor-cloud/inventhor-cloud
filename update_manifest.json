@@ -1,11 +1,11 @@
 {
   "app": "INVENTHOR",
   "title": "INVENTHOR",
-  "versionName": "INVENTHOR Login Auto Attach 202606060100",
-  "versionCode": 202606060100,
+  "versionName": "INVENTHOR Provider Status Bind 202606060116",
+  "versionCode": 202606060116,
   "channel": "beta",
   "apk": "INVENTHOR.apk",
   "apkUrl": "https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk",
   "landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/",
-  "note": "Login auto-attach chain added for update cloud, central brain, owner brain, owner archive and provider vault probe."
+  "note": "Provider status now reads owner provider vault."
 }

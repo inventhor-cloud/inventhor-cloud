@@ -1,11 +1,11 @@
 {
   "app": "INVENTHOR",
   "title": "INVENTHOR Beta",
-  "versionName": "INVENTHOR Beta 202606051807",
-  "versionCode": 202606051807,
+  "versionName": "INVENTHOR Login Verify 202606051813",
+  "versionCode": 202606051813,
   "channel": "beta",
   "apk": "INVENTHOR.apk",
   "apkUrl": "https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk",
   "landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/",
-  "note": "VPN modüler başlangıç + sabit APK güncelleme."
+  "note": "Giriş ekranı temiz doğrulandı ve sabit APK güncellendi."
 }

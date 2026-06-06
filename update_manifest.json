@@ -1,11 +1,11 @@
 {
   "app": "INVENTHOR",
   "title": "INVENTHOR",
-  "versionName": "INVENTHOR Send Command Bind 202606060416",
-  "versionCode": 202606060416,
+  "versionName": "INVENTHOR Command Classifier Fix 202606060427",
+  "versionCode": 202606060427,
   "channel": "beta",
   "apk": "INVENTHOR.apk",
   "apkUrl": "https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk",
   "landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/",
-  "note": "Composer send button now routes build/update/cleanup/report commands to bridge task writer."
+  "note": "Phone command classifier fixed for Sistemi derle, build, apk and update commands."
 }

@@ -1,11 +1,11 @@
 {
   "app": "INVENTHOR",
   "title": "INVENTHOR",
-  "versionName": "INVENTHOR Account Logout 202606060309",
-  "versionCode": 202606060309,
+  "versionName": "INVENTHOR Phone Command Task Writer 202606060406",
+  "versionCode": 202606060406,
   "channel": "beta",
   "apk": "INVENTHOR.apk",
   "apkUrl": "https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk",
   "landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/",
-  "note": "Account logout foundation added. Logout preserves vault and allows auto-attach test after re-login."
+  "note": "Phone command task writer foundation added: commands can become typed bridge tasks with duplicate guard."
 }

@@ -1,11 +1,11 @@
 {
   "app": "INVENTHOR",
   "title": "INVENTHOR",
-  "versionName": "INVENTHOR Provider Status Bind 202606060116",
-  "versionCode": 202606060116,
+  "versionName": "INVENTHOR Account Logout 202606060309",
+  "versionCode": 202606060309,
   "channel": "beta",
   "apk": "INVENTHOR.apk",
   "apkUrl": "https://inventhor-cloud.github.io/inventhor-cloud/INVENTHOR.apk",
   "landingPage": "https://inventhor-cloud.github.io/inventhor-cloud/",
-  "note": "Provider status now reads owner provider vault."
+  "note": "Account logout foundation added. Logout preserves vault and allows auto-attach test after re-login."
 }
